@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:control="clr-namespace:CustomControls;assembly=CustomControls" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CustomControls" x:Class="CustomControls.CustomControlsPage" xmlns:controls="clr-namespace:CustomControls.Controls;Assembly:CustomControls">
+	<StackLayout Padding="20">
+		<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+		<controls:ButtonWithBusyIndicator VerticalOptions="End" Text="xyz" IsBusy="true" ButtonBgColor="Green" HeightRequest="50" />
+	</StackLayout>
+</ContentPage>
